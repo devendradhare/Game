@@ -8,7 +8,7 @@ const NumberSelecter=({selectedNumber,setSelectednumber,error,setError})=>{
         setError("")
     }
     return (
-        <div className=" lg:grid grid-col-2 justify-items-end my-10">
+        <div className=" lg:grid grid-col-2 justify-items-end my-6">
             <p className="font-bold px-10 text-red-500 ">{error}</p>
             <div className="flex gap-4 px-10">
             {array.map((value,i)=>(
