@@ -39,7 +39,7 @@ const GamePlay=()=>{
         }
     return (
         <>
-           <main className="flex justify-between items-center mt-8">
+           <main className="md:flex justify-between items-center mt-8 ">
              <TotalScore score={score}/>
              <NumberSelecter
                 error={error}

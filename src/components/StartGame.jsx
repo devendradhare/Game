@@ -2,7 +2,7 @@
 
 const startGame=({toggle})=>{
        return(
-        <div className="grid m-20 place-items-center">
+        <div className="grid md:m-20 place-items-center mt-40">
             <div>
                 <img src="/Images/dices 1.png" alt="" />
             </div>
